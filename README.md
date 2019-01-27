@@ -1,23 +1,29 @@
-# **SuperR's Kitchen Free**
+# **SuperR's Kitchen免费版**
 ## *by SuperR*
 
-## **FEATURES**
+## **依赖:**
 
-**Extract and create ROM from:**
+* Python 3.5 以上版本
+* Java 8 以上版本
 
-* Rooted Device  
-* Custom Recovery  
-* Existing ROM zip  
-* system.img/boot.img (and cache.img on Samsung devices)  
+## **功能**
+
+**创建刷机包，要求:**
+
+* Root的设备  
+* 刷入第三方Recovery的设备 
+* 刷机包
+* system.img/boot.img ( 和三星设备的cache.img)  
 * system.ext4.tar/boot.img  
-* system.ext4.win/boot.emmc.win (including multi-file .win000, .win001, etc)  
+* system.ext4.win/boot.emmc.win ( 包括 .win000, .win001, etc)  
 * Moto and other factory firmware zips containing sparsechunk files  
 * cm12 + roms with sparse dat files  
-* Zips that contain system.img and boot.img  
-* Samsung firmware zips that contain tar.md5 file  
+* 包含system.img boot.img的卡刷包  
+* 三星设备线刷包的 tar.md5 文件  
 * Official Nexus firmware tgz/zip  
 * Official Nexus preview tgz/zip  
 * system directory that contains symlinks and boot.img  
+* 拥有以上任一条件即可
 
 **Create flashable zips of many varieties including:**
 
@@ -117,8 +123,4 @@ cd /location/of/kitchen
 
 Double-click the superr file and choose "Run in Terminal" if your OS supports it.
 
-## **DEPENDENCIES:**
-
-* Python 3.5 or higher  
-* Java 8 or higher
 # superrs-kitchen
