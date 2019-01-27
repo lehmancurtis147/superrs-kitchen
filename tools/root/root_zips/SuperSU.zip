@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>SuperSU Download</title>
+<style type="text/css">
+html {
+	width: 100%;
+	min-width: 750px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  	margin: 0px;
+  	padding: 0px;
+  	width: 100%;
+  	height: 100%;
+  	font-family: Arial, sans-serif;
+  	font-size: 12pt;
+  	background-color: #FFFFFF;
+	color: #000000;
+}
+
+form {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#header {
+  	font-size: 18pt;
+  	font-weight: bold;
+  	color: #FFFFFF;
+  	padding: 8px;
+  	background-color: #9999CC;
+  	border-bottom: 1px solid #000000;
+	margin-bottom: 16px;
+}
+
+div#footer {
+	clear: both;
+  	font-size: 10pt;
+  	color: #FFFFFF;
+  	padding: 4px;
+  	text-align: center;
+  	background-color: #9999CC;
+  	border-top: 1px solid #000000;
+  	border-bottom: 1px solid #000000;
+	margin-top: 16px;
+}
+
+div#bar-left,
+div#bar-right {
+	position: relative;
+	font-size: 10pt;
+	width: 196px;
+  	color: #000000;
+}
+
+div#bar-left {
+	float: left;
+}
+
+div#bar-right {
+	float: right;
+}
+
+div.block {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+
+  	background-color: #9999CC;
+  	border-top: 1px solid #000000;
+  	border-bottom: 1px solid #000000;
+
+  	text-align: center;
+}
+
+div#bar-left div.block {
+  	border-right: 1px solid #000000;
+}
+
+div#bar-right div.block {
+  	border-left: 1px solid #000000;
+}
+
+div.block div.title {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+div.block div.slogan {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 8px;
+}
+
+div.block a,
+div.block a:link,
+div.block a:active,
+div.block a:visited,
+div.block a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div.block a:hover {
+	text-decoration: underline;
+}
+
+div#download {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	text-align: center;
+}
+
+div#download a,
+div#download a:link,
+div#download a:active,
+div#download a:visited,
+div#download a:hover {
+	color: #800000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#download a:hover {
+	text-decoration: underline;
+}
+
+span.downloadcount {
+	color: #800000;
+	font-weight: bold;
+}
+</style>
+<body>
+
+<div id="header">
+	CF-Root download page
+</div>
+
+<div id="bar-left">
+    <div class="block">
+        <a rel="nofollow" href="http://pkg.to/eu.chainfire.flash" target="_blank">
+            <div class="title">FlashFire</div>
+            <img src="/static/flashfire.png" border="0" />
+            <div class="slogan">Change firmwares while keeping root, backup/restore even over ADB and Wi-Fi</div>
+        </a>
+    </div>
+		<div class="block">
+		<a rel="nofollow" href="http://pkg.to/eu.chainfire.firepaper.fivehundredpx" target="_blank">
+			<div class="title">500 Firepaper</div>
+			<img src="/static/firepaper.jpg" border="0" />
+			<div class="slogan">Live wallpaper and daydream displaying the latest and greatest imagery from 500px.com, highly configurable</div>
+		</a>
+	</div>
+	<!--
+	<div class="block">
+		<a rel="nofollow" href="http://pkg.to/eu.chainfire.supersu" target="_blank">
+			<div class="title">SuperSU</div>
+			<img src="/static/supersu.png" border="0" />
+			<div class="slogan">The best Superuser access management available !</div>
+		</a>
+	</div>
+	<div class="block">
+		<a rel="nofollow" href="http://pkg.to/eu.chainfire.cf3d" target="_blank">
+			<div class="title">Chainfire3D</div>
+			<img src="/static/cf3d.jpg" border="0" />
+			<div class="slogan">Take control of your GPU !</div>
+		</a>
+	</div>
+-->
+		<div class="block">
+		<a rel="nofollow" href="http://pkg.to/eu.chainfire.dslrcontroller" target="_blank">
+			<div class="title">DSLR Controller</div>
+			<img src="/static/dslr.jpg" border="0" />
+			<div class="slogan">Control your Canon EOS DSLR from your phone !</div>
+		</a>
+	</div>
+	</div>
+
+<script type="text/javascript">
+function contact() {
+	window.location.assign('mailto:chainfire@chainfire.eu?subject=[Advertise]%20Downloads');
+	return false;
+}
+</script>
+
+<div id="bar-right">
+    <div class="block">
+        <a rel="nofollow" href="https://play.google.com/store/apps/details?id=nl.Bakhuisgames.GOT" target="_blank">
+            <div class="title">A Game Of Threes</div>
+            <img src="/static/got.jpg" border="0" />
+            <div class="slogan">Addictive game - free!</div>
+        </a>
+    </div>
+</div>
+
+<div id="download">
+	<br />
+	<b>Downloads served:</b><br />
+	<br />
+	SuperSU: <span class="downloadcount">95 854 300</span><br />
+	<br />
+	This file: <span class="downloadcount">5 413 705</span><br />
+	<br />
+	<br />
+	Support my efforts, get <a rel="nofollow" href="http://pkg.to/eu.chainfire.supersu.pro" target="_blank">SuperSU Pro</a> !<br />
+	<br />
+	<br />
+
+	<a href="https://twitter.com/ChainfireXDA" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @ChainfireXDA</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br />
+
+	<br />
+	<br />
+
+	<a rel="nofollow" href="https://plus.google.com/b/113517319477420052449/" target="_blank">Follow me on Google+</a><br />
+
+	<br />
+	<br />
+
+	<b>Download</b><br />
+    <a rel="nofollow" href="http://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip?retrieve_file=1">SR5-SuperSU-v2.82-SR5-20171001224502.zip</a><br />
+    
+    <br />
+    <br />
+    
+    Want to keep root next time you upgrade firmware? Try <a href="http://pkg.to/eu.chainfire.flash">FlashFire</a>!<br />
+</div>
+
+<div id="footer">
+	Copyright &copy; 2011-2017 - Chainfire
+</div>
+
+</body>
+</html>
